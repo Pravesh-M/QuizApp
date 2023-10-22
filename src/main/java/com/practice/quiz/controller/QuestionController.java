@@ -1,6 +1,5 @@
 package com.practice.quiz.controller;
 
-import com.practice.quiz.exception.QuestionNotFoundException;
 import com.practice.quiz.model.Category;
 import com.practice.quiz.model.Question;
 import com.practice.quiz.service.QuestionService;
@@ -24,7 +23,7 @@ public class QuestionController {
     }
 
     @GetMapping("/{questionId}")
-    public ResponseEntity<Question> getQuestion(@PathVariable long questionId) throws QuestionNotFoundException {
+    public ResponseEntity<Question> getQuestion(@PathVariable long questionId) {
         return new ResponseEntity<>(service.getQuestion(questionId),HttpStatus.FOUND);
     }
 
@@ -39,7 +38,7 @@ public class QuestionController {
     }
 
     @PutMapping("/{questionId}")
-    public ResponseEntity<String> updateQuestion(@PathVariable long questionId, @RequestBody Question question) throws QuestionNotFoundException {
+    public ResponseEntity<String> updateQuestion(@PathVariable long questionId, @RequestBody Question question) {
         service.updateQuestion(questionId,question);
         return new ResponseEntity<>("Question Updated",HttpStatus.OK);
     }
