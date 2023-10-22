@@ -32,7 +32,7 @@ public class QuestionService {
         return repo.findByCategory(category);
     }
     public void updateQuestion(long questionId, Question question) {
-        Question dbQuestion =getQuestion(questionId);
+        Question dbQuestion = getQuestion(questionId);
         dbQuestion.setQuestionText(question.getQuestionText());
         dbQuestion.setOptions(question.getOptions());
         dbQuestion.setCategory(question.getCategory());
