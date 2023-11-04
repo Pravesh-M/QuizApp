@@ -10,8 +10,11 @@ Welcome to the QuizApp Spring Boot project. This application is designed to mana
    cd QuizApp
    ```
    
-2. Run the application:
-By default, the application runs on `http://localhost:8085`. You can change the configuration in the `application.properties` file.
+2. Import the application:
+Import the application in IDE(e.g. IntelliJ IDEA, STS, VSCode).
+
+3. Run the application:
+Locate main class of the project then right click and run. By default, the application will run on `http://localhost:8085`. You can change the configuration in the `application.properties` file.
 
 ## Endpoints
 
