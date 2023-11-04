@@ -4,17 +4,19 @@ Welcome to the QuizApp Spring Boot project. This application is designed to mana
 
 ## Getting Started
 
-1. Clone the repository:
+1. **Clone the repository**
    ```shell
    git clone https://github.com/PraveshM/QuizApp.git
-   cd QuizApp
    ```
+   Alternatively, you can download the project as a ZIP file and extract it.
    
-2. Import the application:
-   Import the application in IDE(e.g. IntelliJ IDEA, STS, VSCode).
+2. **Import Project**
+   
+   Open your favorite IDE (e.g Intellij IDEA, STS, VSCode) and import the project as a Maven project.
 
-3. Run the application:
-   Locate main class of the project then right click and run. By default, the application will run on `http://localhost:8085`. You can change the configuration in the `application.properties` file.
+3. **Run the Application**
+
+   Run the Spring Boot application using your IDE.The application will start on http://localhost:8085
 
 ## Endpoints
 
