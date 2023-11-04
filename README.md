@@ -6,7 +6,7 @@ Welcome to the QuizApp Spring Boot project. This application is designed to mana
 
 1. **Clone the repository**
    ```shell
-   git clone https://github.com/PraveshM/QuizApp.git
+   git clone https://github.com/Pravesh-M/QuizApp.git
    ```
    Alternatively, you can download the project as a ZIP file and extract it.
    
